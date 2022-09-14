@@ -124,4 +124,11 @@ class AList<E> implements List<E> {
     {
         return curr == 0;
     }
+    
+    //Set thke value of the selected position to a certain value
+    public boolean setValue(int pos, E value)
+    {
+        listArray[pos] = value;
+        return true;
+    }
 }
