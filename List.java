@@ -47,5 +47,8 @@ public interface List<E> { // List class ADT
     public boolean isEmpty();
 
     // Tell if at the beginning
-    boolean isAtStart();
+    public boolean isAtStart();
+    
+    // Set a certain position to a value
+    public boolean setValue(int pos, E value);
 }
